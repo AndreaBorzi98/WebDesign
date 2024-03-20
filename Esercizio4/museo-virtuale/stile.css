@@ -103,5 +103,20 @@ background-color: rgba(189, 122, 67, 0.8);
 #pag1 {
     display:grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-areas: ".header header." "sidebar .main main"
-} */
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header header"
+    ". main main main ."
+    "footer footer footer"
+} 
+
+img {
+    grid-area: main;
+}
+h2{
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}*/
