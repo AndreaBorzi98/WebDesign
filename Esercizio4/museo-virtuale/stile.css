@@ -66,7 +66,7 @@ img {
     align-items: center;
     /* dimensioni
     max-width: 400px;
-    height: auto; */
+    height: auto;*/
 }
 
 p {
@@ -104,15 +104,20 @@ background-color: rgba(189, 122, 67, 0.8);
 .pag1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
     grid-template-areas:
     ". artist . "
-    "p . ."
-    "img img img"
-    "main main main"
-    "img img img"
+    ". p ."
+    "img1 img2 img3"
+    "img4 img5 img6"
     "footer . .";
 }
+
+/* limite dimensioni immagini pagina 1
+.pag1 img {
+    max-width: 400px;
+    max-height: 400px;
+}*/
 
 #dali {
     grid-area: artist;
@@ -122,8 +127,31 @@ background-color: rgba(189, 122, 67, 0.8);
     grid-area: p;
 }
 
-.pag1 figure {
-    grid-area: main;
+#img1 {
+    grid-area: img1;
+}
+
+#img2 {
+    grid-area: img2;
+}
+
+#img3 {
+    grid-area: img3;
+}
+
+
+#img4 {
+    grid-area: img4;
+}
+
+
+#img5 {
+    grid-area: img5;
+}
+
+
+#img6 {
+    grid-area: img6;
 }
 
 .pag1 #dali{
