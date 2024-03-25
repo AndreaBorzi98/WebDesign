@@ -74,6 +74,7 @@ p {
     font-size: 18px;
     font-family:'Segoe UI', sans-serif;
 }
+
 footer>p {
     color: black;
     font-style: italic;
@@ -101,28 +102,34 @@ background-color: rgba(189, 122, 67, 0.8);
 
 /* grid pagina 1 area */
 .pag1 {
-    display:grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 300px 300px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
     grid-template-areas:
-    "header header header"
-    ". main main main ."
-    "footer footer footer"
-} 
+    ". artist . "
+    "p . ."
+    "img img img"
+    "main main main"
+    "img img img"
+    "footer . .";
+}
 
-.pag1 img {
-    grid-area: main;
-    object-fit: cover;
+#dali {
+    grid-area: artist;
 }
+
+#text {
+    grid-area: p;
+}
+
 .pag1 figure {
-    margin: 6px 6px 20px 6px;
+    grid-area: main;
 }
-.pag1 h2{
-    grid-area: header;
-    object-fit: cover;
+
+.pag1 #dali{
+    grid-area: artist;
 }
 
 footer {
     grid-area: footer;
-    object-fit: cover;
 }
