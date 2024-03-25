@@ -99,24 +99,30 @@ background-color: rgba(189, 122, 67, 0.8);
     row-gap: 15px;
 }
 
-/* grid pagina 1 area
-#pag1 {
+/* grid pagina 1 area */
+.pag1 {
     display:grid;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows: auto;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas:
     "header header header"
     ". main main main ."
     "footer footer footer"
 } 
 
-img {
+.pag1 img {
     grid-area: main;
+    object-fit: cover;
 }
-h2{
+.pag1 figure {
+    margin: 6px 6px 20px 6px;
+}
+.pag1 h2{
     grid-area: header;
+    object-fit: cover;
 }
 
 footer {
     grid-area: footer;
-}*/
+    object-fit: cover;
+}
