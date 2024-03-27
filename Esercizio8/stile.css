@@ -59,14 +59,17 @@ h3 {
 }
 
 img {
-        display:block;
-        margin:auto;
+    display:block;
+    margin:0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 #image {
-    max-width: 100%;
+    display: block;
+	max-width: 100%;
     height: auto;
-    place-content: center;
+ 	margin: 0 auto;
 }
 
 body {
@@ -82,5 +85,6 @@ section {
 
 figcaption {
     font-size: 0.9em;
-    text-align: justify;
+    padding: 5px;
+    text-align: center;
 }
