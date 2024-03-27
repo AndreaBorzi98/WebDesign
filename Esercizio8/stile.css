@@ -1,0 +1,37 @@
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color:yellow;
+    text-shadow: 3px 3px black;
+    text-align: center;
+  }
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+  }
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+img  {
+    max-width: 25%;
+    height: 25%;
+}
+
+body {
+    background-color: deeppink;
+}
