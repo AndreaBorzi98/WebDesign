@@ -58,9 +58,14 @@ h3 {
     text-shadow: 2px 2px black;
 }
 
-img  {
-    max-width: 80%;
-    height: 40%;
+img {
+        display:block;
+        margin:auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
     place-content: center;
 }
 
