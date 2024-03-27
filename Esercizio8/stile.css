@@ -2,7 +2,10 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: justify;
+    font-size: 1em;
   }
+
 
 h1 {
     font-family: "Roboto", sans-serif;
@@ -19,19 +22,58 @@ h2 {
     font-style: normal;
     color: yellow;
     text-shadow: 2px 2px 4px black;
+    text-align: center;
   }
+
+#sub1 {
+    text-align: left;
+}
+#sub2 {
+    text-align: center;
+}
+#sub3 {
+    text-align: right;
+}
+
+#tribute-link {
+    color:lightskyblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    color: yellow;
+}
 
 h3 {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-style: normal;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 img  {
-    max-width: 25%;
-    height: 25%;
+    max-width: 80%;
+    height: 40%;
 }
 
 body {
     background-color: deeppink;
+}
+
+section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+figcaption {
+    font-size: 0.9em;
+    text-align: justify;
 }
