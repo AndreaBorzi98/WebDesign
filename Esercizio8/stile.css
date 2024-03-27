@@ -61,6 +61,7 @@ h3 {
 img  {
     max-width: 80%;
     height: 40%;
+    place-content: center;
 }
 
 body {
@@ -72,6 +73,7 @@ section {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
 
 figcaption {
     font-size: 0.9em;
