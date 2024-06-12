@@ -1,0 +1,36 @@
+
+.magenta-div {
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    margin-top: 60px;
+}
+
+.magenta-div:hover {
+    transform: translateX(50px);
+}
+
+.blue-div {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation-name: colore;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 60px;
+}
+
+@keyframes colore {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
